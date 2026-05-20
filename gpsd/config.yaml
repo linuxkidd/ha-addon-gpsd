@@ -17,8 +17,14 @@ ports:
 ports_description:
   2947/tcp: "gpsd TCP port"
 devices:
-  - /dev/ttyUSB0
   - /dev/ttyACM0
+  - /dev/ttyACM1
+  - /dev/ttyACM2
+  - /dev/ttyACM3
+  - /dev/ttyUSB0
+  - /dev/ttyUSB1
+  - /dev/ttyUSB2
+  - /dev/ttyUSB3
 udev: true
 options:
   device: /dev/ttyUSB0
